@@ -1,0 +1,79 @@
+{
+  "uid" : "a731084fc97c75d5",
+  "name" : "测试的登录功能",
+  "fullName" : "test_cases.test_login#test_login",
+  "historyId" : "957d6be0eb67e8163afcb84498d00ad3",
+  "time" : {
+    "start" : 1609740080019,
+    "stop" : 1609740080060,
+    "duration" : 41
+  },
+  "description" : "登录接口一共三个用例",
+  "descriptionHtml" : "<p>登录接口一共三个用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "登录接口一共三个用例",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "61cfc347b8dcb6d",
+      "name" : "log",
+      "source" : "61cfc347b8dcb6d.txt",
+      "type" : "text/plain",
+      "size" : 51
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "pad手机号密码登录的接口"
+  }, {
+    "name" : "feature",
+    "value" : "登录功能"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "MS-VWBCKIOGQLUS"
+  }, {
+    "name" : "thread",
+    "value" : "8736-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "cases",
+    "value" : "{'case_id': 2, 'title': '手机号为空', 'headers': '', 'data': '{\"mobile\":\"\",\"password\":\"123456\"}', 'method': 'post', 'url': 'user/login', 'expected': '{\"code\":2001,\"message\":\"手机号不能为空\"}'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a731084fc97c75d5.json",
+  "parameterValues" : [ "{'case_id': 2, 'title': '手机号为空', 'headers': '', 'data': '{\"mobile\":\"\",\"password\":\"123456\"}', 'method': 'post', 'url': 'user/login', 'expected': '{\"code\":2001,\"message\":\"手机号不能为空\"}'}" ]
+}

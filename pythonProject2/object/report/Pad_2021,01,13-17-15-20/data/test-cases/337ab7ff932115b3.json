@@ -1,0 +1,174 @@
+{
+  "uid" : "337ab7ff932115b3",
+  "name" : "测试检查手机号是否注册接口",
+  "fullName" : "test_cases.test_checkRegister#test_checkRegister",
+  "historyId" : "a2cff0dba6f9f9405c11d3063041f1bf",
+  "time" : {
+    "start" : 1610529321796,
+    "stop" : 1610529321827,
+    "duration" : 31
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "29ae8aee0150966",
+      "name" : "log",
+      "source" : "29ae8aee0150966.txt",
+      "type" : "text/plain",
+      "size" : 67
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "检查手机号是否注册"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_checkRegister"
+  }, {
+    "name" : "host",
+    "value" : "MS-VWBCKIOGQLUS"
+  }, {
+    "name" : "thread",
+    "value" : "11788-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases.test_checkRegister"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "cases",
+    "value" : "{'case_id': 3, 'title': '手机号长度错误', 'headers': '', 'data': '{\"mobile\":\"18866\"}', 'method': 'post', 'url': 'user/checkRegister', 'expected': '{\"code\":2003,\"message\":\"手机号码长度不是11位\"}'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "714e114951f1fe79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610529294603,
+        "stop" : 1610529294652,
+        "duration" : 49
+      }
+    }, {
+      "uid" : "973036082c7e04c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610076696258,
+        "stop" : 1610076696281,
+        "duration" : 23
+      }
+    }, {
+      "uid" : "e78e3c77d000744f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610076661766,
+        "stop" : 1610076661791,
+        "duration" : 25
+      }
+    }, {
+      "uid" : "e7059fde3fae24d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609740166766,
+        "stop" : 1609740166813,
+        "duration" : 47
+      }
+    }, {
+      "uid" : "d8a01f42674575f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609740079898,
+        "stop" : 1609740079955,
+        "duration" : 57
+      }
+    }, {
+      "uid" : "5719a3accb6021d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609738030715,
+        "stop" : 1609738030752,
+        "duration" : 37
+      }
+    }, {
+      "uid" : "a41a1929906485e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609737855249,
+        "stop" : 1609737855315,
+        "duration" : 66
+      }
+    }, {
+      "uid" : "9db7f21ad3e2fa12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609737743854,
+        "stop" : 1609737743880,
+        "duration" : 26
+      }
+    }, {
+      "uid" : "1263d2ab96df9948",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609737508133,
+        "stop" : 1609737508163,
+        "duration" : 30
+      }
+    }, {
+      "uid" : "534788367bce2689",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609405161992,
+        "stop" : 1609405162013,
+        "duration" : 21
+      }
+    }, {
+      "uid" : "e1abccb96e4b18b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609404740369,
+        "stop" : 1609404740396,
+        "duration" : 27
+      }
+    }, {
+      "uid" : "582f8c4ae07ed309",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609404576693,
+        "stop" : 1609404576718,
+        "duration" : 25
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "337ab7ff932115b3.json",
+  "parameterValues" : [ "{'case_id': 3, 'title': '手机号长度错误', 'headers': '', 'data': '{\"mobile\":\"18866\"}', 'method': 'post', 'url': 'user/checkRegister', 'expected': '{\"code\":2003,\"message\":\"手机号码长度不是11位\"}'}" ]
+}

@@ -1,0 +1,125 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "检查手机号是否注册",
+    "children" : [ {
+      "name" : "测试检查手机号是否注册接口",
+      "uid" : "231ce6a57d827dd2",
+      "parentUid" : "2c4552f8b2ef7898fb41c31a6ba7352d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609740166635,
+        "stop" : 1609740166683,
+        "duration" : 48
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'case_id': 1, 'title': '输入未注册的手机号', 'headers': '', 'data': '{\"mobile\":\"18787878787\"}', 'method': 'post', 'url': 'user/checkRegister', 'expected': '{\"code\":1000,\"message\":\"可以注册\"}'}" ]
+    }, {
+      "name" : "测试检查手机号是否注册接口",
+      "uid" : "b4909c2d4e06656e",
+      "parentUid" : "2c4552f8b2ef7898fb41c31a6ba7352d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609740166693,
+        "stop" : 1609740166764,
+        "duration" : 71
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'case_id': 2, 'title': '输入已注册的手机号', 'headers': '', 'data': '{\"mobile\":\"18866666666\"}', 'method': 'post', 'url': 'user/checkRegister', 'expected': '{\"code\":1000,\"message\":\"该手机号已注册\"}'}" ]
+    }, {
+      "name" : "测试检查手机号是否注册接口",
+      "uid" : "b39cf9e944339904",
+      "parentUid" : "2c4552f8b2ef7898fb41c31a6ba7352d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609740166766,
+        "stop" : 1609740166813,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'case_id': 3, 'title': '手机号长度错误', 'headers': '', 'data': '{\"mobile\":\"18866\"}', 'method': 'post', 'url': 'user/checkRegister', 'expected': '{\"code\":2003,\"message\":\"手机号码长度不是11位\"}'}" ]
+    } ],
+    "uid" : "2c4552f8b2ef7898fb41c31a6ba7352d"
+  }, {
+    "name" : "登录功能",
+    "children" : [ {
+      "name" : "pad手机号密码登录的接口",
+      "children" : [ {
+        "name" : "测试的登录功能",
+        "uid" : "89f6ba42b77a48d9",
+        "parentUid" : "fbb9c94860b925e753ef638f2bbf37f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609740166816,
+          "stop" : 1609740167869,
+          "duration" : 1053
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 1, 'title': '输入正确手机号，正确密码', 'headers': '', 'data': '{\"mobile\":\"18866666666\",\"password\":\"000000\"}', 'method': 'post', 'url': 'user/login', 'expected': '{\"code\":1000,\"message\":\"登录成功\"}'}" ]
+      }, {
+        "name" : "测试的登录功能",
+        "uid" : "6fa1b617994d8078",
+        "parentUid" : "fbb9c94860b925e753ef638f2bbf37f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609740167880,
+          "stop" : 1609740167944,
+          "duration" : 64
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 2, 'title': '手机号为空', 'headers': '', 'data': '{\"mobile\":\"\",\"password\":\"123456\"}', 'method': 'post', 'url': 'user/login', 'expected': '{\"code\":2001,\"message\":\"手机号不能为空\"}'}" ]
+      }, {
+        "name" : "测试的登录功能",
+        "uid" : "e63919c34bd70155",
+        "parentUid" : "fbb9c94860b925e753ef638f2bbf37f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609740167947,
+          "stop" : 1609740168027,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 3, 'title': '密码为空', 'headers': '', 'data': '{\"mobile\":\"18866666666\",\"password\":\"\"}', 'method': 'post', 'url': 'user/login', 'expected': '{\"code\":2001,\"message\":\"密码不能为空\"}'}" ]
+      } ],
+      "uid" : "fbb9c94860b925e753ef638f2bbf37f3"
+    } ],
+    "uid" : "76c1a89e029bf2806c0ddb06b8505b0b"
+  }, {
+    "name" : "修改个人信息",
+    "children" : [ {
+      "name" : "修改个人信息的接口",
+      "uid" : "98a7a9135fb729a3",
+      "parentUid" : "43ab33864f08cd7308fbade6127580c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609740168230,
+        "stop" : 1609740168350,
+        "duration" : 120
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'case_id': 1, 'title': '修改成功', 'headers': '{\"token\":\"#token#\"}', 'data': '{\"nickname\":\"test\",\"gender\":\"1\",\"birthday\":\"1994-02-14\",\"schoolId\":\"654\"}', 'url': 'user/modifyUserInfo', 'method': 'post', 'expected': '{\"code\":1000,\"message\":\"修改成功\"}'}" ]
+    }, {
+      "name" : "修改个人信息的接口",
+      "uid" : "254d0c417c6ed422",
+      "parentUid" : "43ab33864f08cd7308fbade6127580c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609740168353,
+        "stop" : 1609740168383,
+        "duration" : 30
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'case_id': 2, 'title': '昵称大于8位', 'headers': '{\"token\":\"#token#\"}', 'data': '{\"nickname\":\"tes0000000000000t\",\"gender\":\"1\",\"birthday\":\"1994-02-14\",\"schoolId\":\"654\"}', 'url': 'user/modifyUserInfo', 'method': 'post', 'expected': '{\"code\":2001,\"message\" :\"昵称最多8位长度\"}'}" ]
+    } ],
+    "uid" : "43ab33864f08cd7308fbade6127580c7"
+  } ]
+}

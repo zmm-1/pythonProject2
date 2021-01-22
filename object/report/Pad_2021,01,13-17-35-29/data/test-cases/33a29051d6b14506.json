@@ -1,0 +1,216 @@
+{
+  "uid" : "33a29051d6b14506",
+  "name" : "修改个人信息的接口",
+  "fullName" : "test_cases.test_updateUserInfo#test_modifyUserInfo",
+  "historyId" : "eb1143003492c26534c5d99fb0373bbb",
+  "time" : {
+    "start" : 1610529321898,
+    "stop" : 1610529321945,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1610529321792,
+      "stop" : 1610529321829,
+      "duration" : 37
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "db_conn",
+    "time" : {
+      "start" : 1610529321829,
+      "stop" : 1610529321896,
+      "duration" : 67
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f076f515b2cfb92e",
+      "name" : "log",
+      "source" : "f076f515b2cfb92e.txt",
+      "type" : "text/plain",
+      "size" : 69
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "db_conn::0",
+    "time" : {
+      "start" : 1610529321983,
+      "stop" : 1610529321984,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "修改个人信息"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_updateUserInfo"
+  }, {
+    "name" : "host",
+    "value" : "MS-VWBCKIOGQLUS"
+  }, {
+    "name" : "thread",
+    "value" : "9712-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases.test_updateUserInfo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "cases",
+    "value" : "{'case_id': 1, 'title': '修改成功', 'headers': '{\"token\":\"#token#\"}', 'data': '{\"nickname\":\"test\",\"gender\":\"1\",\"birthday\":\"1994-02-14\",\"schoolId\":\"654\"}', 'url': 'user/modifyUserInfo', 'method': 'post', 'expected': '{\"code\":1000,\"message\":\"修改成功\"}'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c14aa5e257969f0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610529294719,
+        "stop" : 1610529294768,
+        "duration" : 49
+      }
+    }, {
+      "uid" : "8f0eb147273aa418",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610076696516,
+        "stop" : 1610076696566,
+        "duration" : 50
+      }
+    }, {
+      "uid" : "219c83cc9b06bd15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610076662123,
+        "stop" : 1610076662171,
+        "duration" : 48
+      }
+    }, {
+      "uid" : "5240ac38fdde7e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609740168230,
+        "stop" : 1609740168350,
+        "duration" : 120
+      }
+    }, {
+      "uid" : "934a5f7a2919a76d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609740080259,
+        "stop" : 1609740080326,
+        "duration" : 67
+      }
+    }, {
+      "uid" : "a0f9c075fe86eedd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609738031009,
+        "stop" : 1609738031051,
+        "duration" : 42
+      }
+    }, {
+      "uid" : "6898f65a7b759c10",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609737855750,
+        "stop" : 1609737855807,
+        "duration" : 57
+      }
+    }, {
+      "uid" : "28defd623a8963d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609737745114,
+        "stop" : 1609737745153,
+        "duration" : 39
+      }
+    }, {
+      "uid" : "d2c484bf59a4a088",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609737508450,
+        "stop" : 1609737508503,
+        "duration" : 53
+      }
+    }, {
+      "uid" : "59e071b8b8de4410",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609405162198,
+        "stop" : 1609405162235,
+        "duration" : 37
+      }
+    }, {
+      "uid" : "ba33bcebe5103e92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609404740591,
+        "stop" : 1609404740632,
+        "duration" : 41
+      }
+    }, {
+      "uid" : "f216df52cb7b8afe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609404576890,
+        "stop" : 1609404576925,
+        "duration" : 35
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "33a29051d6b14506.json",
+  "parameterValues" : [ "{'case_id': 1, 'title': '修改成功', 'headers': '{\"token\":\"#token#\"}', 'data': '{\"nickname\":\"test\",\"gender\":\"1\",\"birthday\":\"1994-02-14\",\"schoolId\":\"654\"}', 'url': 'user/modifyUserInfo', 'method': 'post', 'expected': '{\"code\":1000,\"message\":\"修改成功\"}'}" ]
+}

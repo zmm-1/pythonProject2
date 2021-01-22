@@ -1,0 +1,81 @@
+[ {
+  "uid" : "3151a6bfa1b09c37",
+  "name" : "test_modifyUserInfo[cases0]",
+  "time" : {
+    "start" : 1609737508450,
+    "stop" : 1609737508503,
+    "duration" : 53
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c14288e04c0eb6ad",
+  "name" : "test_checkRegister[cases2]",
+  "time" : {
+    "start" : 1609737508133,
+    "stop" : 1609737508163,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c38b7446c4e0655e",
+  "name" : "测试的登录功能",
+  "time" : {
+    "start" : 1609737508214,
+    "stop" : 1609737508245,
+    "duration" : 31
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "747e323627bb55f1",
+  "name" : "test_checkRegister[cases1]",
+  "time" : {
+    "start" : 1609737508103,
+    "stop" : 1609737508130,
+    "duration" : 27
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fdb307a2a60b02ac",
+  "name" : "测试的登录功能",
+  "time" : {
+    "start" : 1609737508166,
+    "stop" : 1609737508211,
+    "duration" : 45
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d91aa171f0cb311e",
+  "name" : "test_modifyUserInfo[cases1]",
+  "time" : {
+    "start" : 1609737508506,
+    "stop" : 1609737508531,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ea968de6be24f3f",
+  "name" : "test_checkRegister[cases0]",
+  "time" : {
+    "start" : 1609737508061,
+    "stop" : 1609737508100,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7eaeed0cc89119bf",
+  "name" : "测试的登录功能",
+  "time" : {
+    "start" : 1609737508249,
+    "stop" : 1609737508286,
+    "duration" : 37
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,76 @@
+{
+  "uid" : "eda3c86ee1eacd04",
+  "name" : "测试的登录功能",
+  "fullName" : "test_cases.test_login#test_login",
+  "historyId" : "957d6be0eb67e8163afcb84498d00ad3",
+  "time" : {
+    "start" : 1609737744930,
+    "stop" : 1609737744964,
+    "duration" : 34
+  },
+  "description" : "登录接口一共三个用例",
+  "descriptionHtml" : "<p>登录接口一共三个用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "登录接口一共三个用例",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6d33fbab068a1bf9",
+      "name" : "log",
+      "source" : "6d33fbab068a1bf9.txt",
+      "type" : "text/plain",
+      "size" : 51
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录功能"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "MS-VWBCKIOGQLUS"
+  }, {
+    "name" : "thread",
+    "value" : "8720-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "cases",
+    "value" : "{'case_id': 2, 'title': '手机号为空', 'headers': '', 'data': '{\"mobile\":\"\",\"password\":\"123456\"}', 'method': 'post', 'url': 'user/login', 'expected': '{\"code\":2001,\"message\":\"手机号不能为空\"}'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eda3c86ee1eacd04.json",
+  "parameterValues" : [ "{'case_id': 2, 'title': '手机号为空', 'headers': '', 'data': '{\"mobile\":\"\",\"password\":\"123456\"}', 'method': 'post', 'url': 'user/login', 'expected': '{\"code\":2001,\"message\":\"手机号不能为空\"}'}" ]
+}

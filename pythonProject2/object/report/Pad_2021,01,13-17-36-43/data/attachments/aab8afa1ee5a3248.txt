@@ -1,0 +1,1 @@
+INFO     checkRegister:test_checkRegister.py:31 第3条用例通过

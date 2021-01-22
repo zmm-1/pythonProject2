@@ -1,0 +1,24 @@
+
+#log信息
+log:
+  fmt: '%(name)s--%(asctime)s--%(filename)s--%(lineno)d--%(levelname)s:%(message)s'#日志输出格式
+  logger_level: 'DEBUG'
+  stream_level: 'DEBUG'
+  file_level: 'INFO'
+
+#废弃库
+mysqlinfo:
+  host: 'bj-cdb-5t3fr7xk.sql.tencentcdb.com'
+  port: 61446
+  user: 'root'
+  password: '3r4edvfc%TGB'
+  database: zjx_pad
+
+#接口地址
+zjx_host: 'https://test.api.zjxk12.com/zjx/api/'
+pad_host: 'http://tpad.api.zjxk12.com/zjx/api/'
+
+user_info:
+  url: 'https://test.api.zjxk12.com/zjx/api/user/login'
+  json: {"deviceCode":"b085da5e18294d0383eccffd99474e64","mobile":"13472293379","password":"123456","platfrom":"0"}
+

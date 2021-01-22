@@ -1,0 +1,129 @@
+{
+  "uid" : "2c68fab7a70d0f37",
+  "name" : "测试的登录功能",
+  "fullName" : "test_cases.test_login#test_login",
+  "historyId" : "94c118190fe1b84b977319905dee63c0",
+  "time" : {
+    "start" : 1609738030847,
+    "stop" : 1609738030878,
+    "duration" : 31
+  },
+  "description" : "登录接口一共三个用例",
+  "descriptionHtml" : "<p>登录接口一共三个用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "登录接口一共三个用例",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b3e4b573904e82a4",
+      "name" : "log",
+      "source" : "b3e4b573904e82a4.txt",
+      "type" : "text/plain",
+      "size" : 51
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "###################"
+  }, {
+    "name" : "feature",
+    "value" : "登录功能"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "MS-VWBCKIOGQLUS"
+  }, {
+    "name" : "thread",
+    "value" : "24324-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "cases",
+    "value" : "{'case_id': 3, 'title': '密码为空', 'headers': '', 'data': '{\"mobile\":\"18866666666\",\"password\":\"\"}', 'method': 'post', 'url': 'user/login', 'expected': '{\"code\":2001,\"message\":\"密码不能为空\"}'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a68ac0185b22812a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609737855403,
+        "stop" : 1609737855430,
+        "duration" : 27
+      }
+    }, {
+      "uid" : "70fcf19a9647b505",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609737744967,
+        "stop" : 1609737744990,
+        "duration" : 23
+      }
+    }, {
+      "uid" : "a51fabd501b8bcea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609737508249,
+        "stop" : 1609737508286,
+        "duration" : 37
+      }
+    }, {
+      "uid" : "d5dee142d9f66538",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609405162080,
+        "stop" : 1609405162102,
+        "duration" : 22
+      }
+    }, {
+      "uid" : "81f8eba7533c917e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609404740467,
+        "stop" : 1609404740490,
+        "duration" : 23
+      }
+    }, {
+      "uid" : "a348175b8eded1c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609404576780,
+        "stop" : 1609404576799,
+        "duration" : 19
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2c68fab7a70d0f37.json",
+  "parameterValues" : [ "{'case_id': 3, 'title': '密码为空', 'headers': '', 'data': '{\"mobile\":\"18866666666\",\"password\":\"\"}', 'method': 'post', 'url': 'user/login', 'expected': '{\"code\":2001,\"message\":\"密码不能为空\"}'}" ]
+}

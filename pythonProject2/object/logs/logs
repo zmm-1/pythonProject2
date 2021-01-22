@@ -1,0 +1,362 @@
+login--2020-12-30 17:15:29,160--23--INFO:第1条用例通过
+login--2020-12-30 17:15:29,180--23--INFO:第2条用例通过
+login--2020-12-30 17:15:29,201--23--INFO:第3条用例通过
+login--2020-12-30 17:16:05,192--23--INFO:第1条用例通过
+login--2020-12-30 17:16:05,213--23--INFO:第2条用例通过
+login--2020-12-30 17:16:05,232--23--INFO:第3条用例通过
+login--2020-12-30 17:20:39,688--17--ERROR:第1条用例失败,预期结果{"code":1000,"message":"登录成功"}!=实际结果{'code': 2001, 'message': '登陆操作过于频繁，请稍后再试', 'data': None, 'windowList': None, 'token': None}
+login--2020-12-30 17:20:39,906--15--INFO:第2条用例通过
+login--2020-12-30 17:20:39,928--15--INFO:第3条用例通过
+login--2020-12-30 17:54:41,623--18--ERROR:第1条用例失败,预期结果{"code":1000,"message":"登录成功"}!=实际结果{'code': 2001, 'message': '登陆操作过于频繁，请稍后再试', 'data': None, 'windowList': None, 'token': None}
+login--2020-12-30 17:54:41,653--16--INFO:第2条用例通过
+login--2020-12-30 17:54:41,674--16--INFO:第3条用例通过
+login--2020-12-31 10:13:49,623--25--INFO:第1条用例通过
+login--2020-12-31 10:26:37,465--27--INFO:第1条用例通过
+login--2020-12-31 11:29:42,416--18--ERROR:第1条用例失败,预期结果{"code":1000,"message":"登录成功"}!=实际结果{'code': 2001, 'message': '登陆操作过于频繁，请稍后再试', 'data': None, 'windowList': None, 'token': None}
+login--2020-12-31 11:29:42,462--16--INFO:第2条用例通过
+login--2020-12-31 11:29:42,488--16--INFO:第3条用例通过
+modifyUserInfo--2020-12-31 13:14:36,906--21--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 13:15:08,402--21--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 13:15:42,075--23--ERROR:第1条用例失败,预期结果{"code":1000,"message":"修改成功"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 13:16:01,897--23--ERROR:第1条用例失败,预期结果{"code":1000,"message":"修改成功"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 13:17:06,275--22--ERROR:第1条用例失败,预期结果{"code":1000,"message":"修改成功"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 13:17:06,650--22--ERROR:第1条用例失败,预期结果{"code":1000,"message":"修改成功"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 13:17:26,488--22--ERROR:第1条用例失败,预期结果{"code":1000,"message":"修改成功"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 13:18:17,298--22--ERROR:第1条用例失败,预期结果{"code":1000,"message":"修改成功"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 13:19:29,620--21--ERROR:第1条用例失败,预期结果{"code":1000,"message":"修改成功"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 13:20:01,760--21--ERROR:第1条用例失败,预期结果{"code":1000,"message":"修改成功"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 13:20:35,096--21--ERROR:第1条用例失败,预期结果{"code":1000,"message":"修改成功"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 13:22:07,660--21--ERROR:第1条用例失败,预期结果{"code":1000,"message":"修改成功"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 13:22:25,567--21--ERROR:第1条用例失败,预期结果{"code":1000,"message":"修改成功"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 13:26:13,962--21--ERROR:第1条用例失败,预期结果{"code":1000,"message":"修改成功"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 13:26:24,226--21--ERROR:第1条用例失败,预期结果{"code":1000,"message":"修改成功"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 13:28:33,480--21--ERROR:第1条用例失败,预期结果{"code":1000,"message":"修改成功"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 13:28:55,808--21--ERROR:第1条用例失败,预期结果{"code":1000,"message":"修改成功"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 13:30:34,910--19--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 13:36:39,438--21--ERROR:第1条用例失败,预期结果{"code":1000,"message":"修改成功"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 13:37:43,139--21--ERROR:第1条用例失败,预期结果{"code":1000,"message":"修改成功"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 13:41:49,575--21--ERROR:第1条用例失败,预期结果{"code":1000,"message":"修改成功"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 13:42:34,622--19--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 13:43:44,945--21--ERROR:第1条用例失败,预期结果{"code":1000,"message":"修改成功"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 13:44:40,246--22--ERROR:第1条用例失败,预期结果{"code":1000,"message":"修改成功"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 13:45:10,807--20--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 13:46:13,095--22--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 13:57:13,674--20--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 14:40:04,586--20--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 14:40:04,617--22--ERROR:第1条用例失败,预期结果{"code":2001,"message" :"昵称最多8位长度"}!=实际结果{'code': 1000, 'message': '修改成功', 'data': None, 'windowList': None, 'token': None}
+modifyUserInfo--2020-12-31 14:40:28,489--20--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 14:40:28,511--20--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 14:42:25,740--22--ERROR:第1条用例失败,预期结果{"code":2001,"message" :"昵称最多8位长度"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 14:44:45,506--20--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 14:44:45,545--22--ERROR:第1条用例失败,预期结果{"code":2001,"message" :"昵称最多8位长度"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 14:46:14,312--20--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 14:46:14,358--22--ERROR:第1条用例失败,预期结果{"code":2001,"message" :"昵称最多8位长度"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 14:47:48,654--18--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 14:47:48,706--20--ERROR:第2条用例失败,预期结果{"code":2001,"message" :"昵称最多8位长度"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 14:53:58,258--18--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 14:53:58,297--20--ERROR:第2条用例失败,预期结果{"code":2001,"message" :"昵称最多8位长度"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 14:54:51,235--18--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 14:54:51,382--20--ERROR:第2条用例失败,预期结果{"code":2001,"message" :"昵称最多8位长度"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 15:00:40,947--18--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 15:00:40,972--18--INFO:第2条用例通过
+modifyUserInfo--2020-12-31 15:36:37,044--23--INFO:第2条用例通过
+modifyUserInfo--2020-12-31 15:36:57,515--23--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 15:36:57,539--23--INFO:第2条用例通过
+modifyUserInfo--2020-12-31 15:54:39,818--23--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 15:54:39,865--23--INFO:第2条用例通过
+modifyUserInfo--2020-12-31 15:56:24,975--23--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 15:56:25,021--23--INFO:第2条用例通过
+modifyUserInfo--2020-12-31 15:56:26,674--25--ERROR:第1条用例失败,预期结果{"code":1000,"message":"修改成功"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 15:56:26,924--25--ERROR:第2条用例失败,预期结果{"code":2001,"message" :"昵称最多8位长度"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 15:58:02,889--23--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 15:58:02,914--23--INFO:第2条用例通过
+modifyUserInfo--2020-12-31 15:58:29,090--23--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 15:58:29,118--23--INFO:第2条用例通过
+modifyUserInfo--2020-12-31 15:58:29,649--25--ERROR:第1条用例失败,预期结果{"code":1000,"message":"修改成功"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 15:58:29,671--25--ERROR:第2条用例失败,预期结果{"code":2001,"message" :"昵称最多8位长度"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 16:00:30,360--20--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 16:00:32,588--20--INFO:第2条用例通过
+modifyUserInfo--2020-12-31 16:00:33,340--20--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 16:00:33,365--20--INFO:第2条用例通过
+modifyUserInfo--2020-12-31 16:00:48,998--20--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 16:00:49,024--20--INFO:第2条用例通过
+modifyUserInfo--2020-12-31 16:00:49,541--22--ERROR:第1条用例失败,预期结果{"code":1000,"message":"修改成功"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 16:00:49,566--22--ERROR:第2条用例失败,预期结果{"code":2001,"message" :"昵称最多8位长度"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 16:04:25,532--20--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 16:04:25,558--20--INFO:第2条用例通过
+modifyUserInfo--2020-12-31 16:04:26,048--22--ERROR:第1条用例失败,预期结果{"code":1000,"message":"修改成功"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 16:04:26,076--22--ERROR:第2条用例失败,预期结果{"code":2001,"message" :"昵称最多8位长度"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 16:06:17,562--20--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 16:06:17,588--20--INFO:第2条用例通过
+modifyUserInfo--2020-12-31 16:06:18,011--22--ERROR:第1条用例失败,预期结果{"code":1000,"message":"修改成功"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 16:06:18,219--22--ERROR:第2条用例失败,预期结果{"code":2001,"message" :"昵称最多8位长度"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+login--2020-12-31 16:06:49,272--16--INFO:第1条用例通过
+login--2020-12-31 16:06:49,294--16--INFO:第2条用例通过
+login--2020-12-31 16:06:49,321--16--INFO:第3条用例通过
+modifyUserInfo--2020-12-31 16:06:49,473--20--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 16:06:49,502--20--INFO:第2条用例通过
+login--2020-12-31 16:06:49,627--18--ERROR:第1条用例失败,预期结果{"code":1000,"message":"登录成功"}!=实际结果{'code': 2001, 'message': '登陆操作过于频繁，请稍后再试', 'data': None, 'windowList': None, 'token': None}
+login--2020-12-31 16:06:49,836--16--INFO:第2条用例通过
+login--2020-12-31 16:06:49,858--16--INFO:第3条用例通过
+modifyUserInfo--2020-12-31 16:06:49,979--22--ERROR:第1条用例失败,预期结果{"code":1000,"message":"修改成功"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 16:06:50,007--22--ERROR:第2条用例失败,预期结果{"code":2001,"message" :"昵称最多8位长度"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+login--2020-12-31 16:11:12,338--16--INFO:第1条用例通过
+login--2020-12-31 16:11:12,362--16--INFO:第2条用例通过
+login--2020-12-31 16:11:12,388--16--INFO:第3条用例通过
+modifyUserInfo--2020-12-31 16:11:12,567--20--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 16:11:12,592--20--INFO:第2条用例通过
+login--2020-12-31 16:12:22,112--16--INFO:第1条用例通过
+login--2020-12-31 16:12:22,175--16--INFO:第2条用例通过
+login--2020-12-31 16:12:22,226--16--INFO:第3条用例通过
+modifyUserInfo--2020-12-31 16:12:22,483--20--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 16:12:22,509--20--INFO:第2条用例通过
+login--2020-12-31 16:12:22,687--18--ERROR:第1条用例失败,预期结果{"code":1000,"message":"登录成功"}!=实际结果{'code': 2001, 'message': '登陆操作过于频繁，请稍后再试', 'data': None, 'windowList': None, 'token': None}
+login--2020-12-31 16:12:22,913--16--INFO:第2条用例通过
+login--2020-12-31 16:12:22,941--16--INFO:第3条用例通过
+modifyUserInfo--2020-12-31 16:12:23,137--22--ERROR:第1条用例失败,预期结果{"code":1000,"message":"修改成功"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 16:12:23,316--22--ERROR:第2条用例失败,预期结果{"code":2001,"message" :"昵称最多8位长度"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+login--2020-12-31 16:19:52,664--16--INFO:第1条用例通过
+login--2020-12-31 16:19:52,712--16--INFO:第2条用例通过
+login--2020-12-31 16:19:52,765--16--INFO:第3条用例通过
+modifyUserInfo--2020-12-31 16:19:52,949--20--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 16:19:52,978--20--INFO:第2条用例通过
+checkRegister--2020-12-31 16:20:16,818--29--INFO:第1条用例通过
+checkRegister--2020-12-31 16:20:16,859--29--INFO:第2条用例通过
+checkRegister--2020-12-31 16:20:16,889--29--INFO:第3条用例通过
+login--2020-12-31 16:20:16,928--16--INFO:第1条用例通过
+login--2020-12-31 16:20:16,952--16--INFO:第2条用例通过
+login--2020-12-31 16:20:16,976--16--INFO:第3条用例通过
+modifyUserInfo--2020-12-31 16:20:18,184--20--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 16:20:18,215--20--INFO:第2条用例通过
+checkRegister--2020-12-31 16:20:29,091--29--INFO:第1条用例通过
+checkRegister--2020-12-31 16:20:29,122--29--INFO:第2条用例通过
+checkRegister--2020-12-31 16:20:29,152--29--INFO:第3条用例通过
+login--2020-12-31 16:20:29,353--16--INFO:第1条用例通过
+login--2020-12-31 16:20:29,383--16--INFO:第2条用例通过
+login--2020-12-31 16:20:29,422--16--INFO:第3条用例通过
+modifyUserInfo--2020-12-31 16:20:29,560--20--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 16:20:29,611--20--INFO:第2条用例通过
+checkRegister--2020-12-31 16:20:29,665--29--INFO:第1条用例通过
+checkRegister--2020-12-31 16:20:29,700--29--INFO:第2条用例通过
+checkRegister--2020-12-31 16:20:29,735--29--INFO:第3条用例通过
+login--2020-12-31 16:20:30,760--18--ERROR:第1条用例失败,预期结果{"code":1000,"message":"登录成功"}!=实际结果{'code': 2001, 'message': '登陆操作过于频繁，请稍后再试', 'data': None, 'windowList': None, 'token': None}
+login--2020-12-31 16:20:30,981--16--INFO:第2条用例通过
+login--2020-12-31 16:20:31,005--16--INFO:第3条用例通过
+modifyUserInfo--2020-12-31 16:20:31,158--22--ERROR:第1条用例失败,预期结果{"code":1000,"message":"修改成功"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 16:20:31,186--22--ERROR:第2条用例失败,预期结果{"code":2001,"message" :"昵称最多8位长度"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+checkRegister--2020-12-31 16:22:46,409--29--INFO:第1条用例通过
+checkRegister--2020-12-31 16:22:46,437--29--INFO:第2条用例通过
+checkRegister--2020-12-31 16:22:46,461--29--INFO:第3条用例通过
+login--2020-12-31 16:22:46,492--16--INFO:第1条用例通过
+login--2020-12-31 16:22:46,520--16--INFO:第2条用例通过
+login--2020-12-31 16:22:46,541--16--INFO:第3条用例通过
+modifyUserInfo--2020-12-31 16:22:46,684--20--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 16:22:46,710--20--INFO:第2条用例通过
+checkRegister--2020-12-31 16:22:46,770--29--INFO:第1条用例通过
+checkRegister--2020-12-31 16:22:46,797--29--INFO:第2条用例通过
+checkRegister--2020-12-31 16:22:46,822--29--INFO:第3条用例通过
+login--2020-12-31 16:22:46,843--18--ERROR:第1条用例失败,预期结果{"code":1000,"message":"登录成功"}!=实际结果{'code': 2001, 'message': '登陆操作过于频繁，请稍后再试', 'data': None, 'windowList': None, 'token': None}
+login--2020-12-31 16:22:47,366--16--INFO:第2条用例通过
+login--2020-12-31 16:22:47,391--16--INFO:第3条用例通过
+modifyUserInfo--2020-12-31 16:22:48,420--22--ERROR:第1条用例失败,预期结果{"code":1000,"message":"修改成功"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+modifyUserInfo--2020-12-31 16:22:48,450--22--ERROR:第2条用例失败,预期结果{"code":2001,"message" :"昵称最多8位长度"}!=实际结果{'code': 3000, 'data': None, 'message': '请重新登录', 'token': None, 'windowList': None}
+checkRegister--2020-12-31 16:23:25,650--29--INFO:第1条用例通过
+checkRegister--2020-12-31 16:23:25,724--29--INFO:第2条用例通过
+checkRegister--2020-12-31 16:23:25,769--29--INFO:第3条用例通过
+login--2020-12-31 16:23:25,825--16--INFO:第1条用例通过
+login--2020-12-31 16:23:25,867--16--INFO:第2条用例通过
+login--2020-12-31 16:23:25,895--16--INFO:第3条用例通过
+modifyUserInfo--2020-12-31 16:23:27,427--20--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 16:23:27,473--20--INFO:第2条用例通过
+checkRegister--2020-12-31 16:23:27,544--29--INFO:第1条用例通过
+checkRegister--2020-12-31 16:23:27,590--29--INFO:第2条用例通过
+checkRegister--2020-12-31 16:23:27,673--29--INFO:第3条用例通过
+login--2020-12-31 16:23:27,740--18--ERROR:第1条用例失败,预期结果{"code":1000,"message":"登录成功"}!=实际结果{'code': 2001, 'message': '登陆操作过于频繁，请稍后再试', 'data': None, 'windowList': None, 'token': None}
+login--2020-12-31 16:23:27,993--16--INFO:第2条用例通过
+login--2020-12-31 16:23:28,052--16--INFO:第3条用例通过
+modifyUserInfo--2020-12-31 16:23:28,350--20--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 16:23:28,389--20--INFO:第2条用例通过
+checkRegister--2020-12-31 16:25:52,784--29--INFO:第1条用例通过
+checkRegister--2020-12-31 16:25:52,813--29--INFO:第2条用例通过
+checkRegister--2020-12-31 16:25:52,837--29--INFO:第3条用例通过
+login--2020-12-31 16:25:52,871--16--INFO:第1条用例通过
+login--2020-12-31 16:25:53,898--16--INFO:第2条用例通过
+login--2020-12-31 16:25:53,924--16--INFO:第3条用例通过
+modifyUserInfo--2020-12-31 16:25:54,056--20--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 16:25:54,087--20--INFO:第2条用例通过
+checkRegister--2020-12-31 16:29:08,781--29--INFO:第1条用例通过
+checkRegister--2020-12-31 16:29:08,812--29--INFO:第2条用例通过
+checkRegister--2020-12-31 16:29:08,848--29--INFO:第3条用例通过
+login--2020-12-31 16:29:08,889--16--INFO:第1条用例通过
+login--2020-12-31 16:29:08,916--16--INFO:第2条用例通过
+login--2020-12-31 16:29:08,938--16--INFO:第3条用例通过
+modifyUserInfo--2020-12-31 16:29:09,073--20--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 16:29:09,105--20--INFO:第2条用例通过
+checkRegister--2020-12-31 16:46:30,753--29--INFO:第1条用例通过
+checkRegister--2020-12-31 16:46:30,777--29--INFO:第2条用例通过
+checkRegister--2020-12-31 16:46:30,801--29--INFO:第3条用例通过
+login--2020-12-31 16:46:30,834--17--INFO:第1条用例通过
+login--2020-12-31 16:46:30,854--17--INFO:第2条用例通过
+login--2020-12-31 16:46:30,875--17--INFO:第3条用例通过
+modifyUserInfo--2020-12-31 16:46:31,227--20--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 16:46:31,258--20--INFO:第2条用例通过
+checkRegister--2020-12-31 16:47:43,280--29--INFO:第1条用例通过
+checkRegister--2020-12-31 16:47:43,320--29--INFO:第2条用例通过
+checkRegister--2020-12-31 16:47:43,345--29--INFO:第3条用例通过
+login--2020-12-31 16:47:43,386--17--INFO:第1条用例通过
+login--2020-12-31 16:47:43,415--17--INFO:第2条用例通过
+login--2020-12-31 16:47:43,440--17--INFO:第3条用例通过
+modifyUserInfo--2020-12-31 16:47:43,576--20--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 16:47:43,606--20--INFO:第2条用例通过
+checkRegister--2020-12-31 16:47:57,480--29--INFO:第1条用例通过
+checkRegister--2020-12-31 16:47:57,504--29--INFO:第2条用例通过
+checkRegister--2020-12-31 16:47:57,525--29--INFO:第3条用例通过
+login--2020-12-31 16:47:57,556--17--INFO:第1条用例通过
+login--2020-12-31 16:47:57,578--17--INFO:第2条用例通过
+login--2020-12-31 16:47:57,601--17--INFO:第3条用例通过
+modifyUserInfo--2020-12-31 16:47:57,936--20--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 16:47:57,965--20--INFO:第2条用例通过
+checkRegister--2020-12-31 16:48:45,604--29--INFO:第1条用例通过
+checkRegister--2020-12-31 16:48:45,638--29--INFO:第2条用例通过
+checkRegister--2020-12-31 16:48:45,674--29--INFO:第3条用例通过
+login--2020-12-31 16:48:45,720--17--INFO:第1条用例通过
+login--2020-12-31 16:48:45,756--17--INFO:第2条用例通过
+login--2020-12-31 16:48:45,786--17--INFO:第3条用例通过
+modifyUserInfo--2020-12-31 16:48:45,926--20--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 16:48:45,953--20--INFO:第2条用例通过
+checkRegister--2020-12-31 16:49:36,651--29--INFO:第1条用例通过
+checkRegister--2020-12-31 16:49:36,690--29--INFO:第2条用例通过
+checkRegister--2020-12-31 16:49:36,717--29--INFO:第3条用例通过
+login--2020-12-31 16:49:36,750--17--INFO:第1条用例通过
+login--2020-12-31 16:49:36,777--17--INFO:第2条用例通过
+login--2020-12-31 16:49:36,799--17--INFO:第3条用例通过
+modifyUserInfo--2020-12-31 16:49:36,924--20--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 16:49:36,949--20--INFO:第2条用例通过
+checkRegister--2020-12-31 16:52:20,331--29--INFO:第1条用例通过
+checkRegister--2020-12-31 16:52:20,363--29--INFO:第2条用例通过
+checkRegister--2020-12-31 16:52:20,395--29--INFO:第3条用例通过
+login--2020-12-31 16:52:20,430--20--INFO:第1条用例通过
+login--2020-12-31 16:52:20,463--20--INFO:第2条用例通过
+login--2020-12-31 16:52:20,489--20--INFO:第3条用例通过
+modifyUserInfo--2020-12-31 16:52:20,630--20--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 16:52:20,656--20--INFO:第2条用例通过
+checkRegister--2020-12-31 16:59:21,964--29--INFO:第1条用例通过
+checkRegister--2020-12-31 16:59:21,989--29--INFO:第2条用例通过
+checkRegister--2020-12-31 16:59:22,012--29--INFO:第3条用例通过
+login--2020-12-31 16:59:22,051--20--INFO:第1条用例通过
+login--2020-12-31 16:59:22,077--20--INFO:第2条用例通过
+login--2020-12-31 16:59:22,101--20--INFO:第3条用例通过
+modifyUserInfo--2020-12-31 16:59:22,235--20--INFO:第1条用例通过
+modifyUserInfo--2020-12-31 16:59:22,258--20--INFO:第2条用例通过
+checkRegister--2021-01-04 13:18:28,100--29--INFO:第1条用例通过
+checkRegister--2021-01-04 13:18:28,129--29--INFO:第2条用例通过
+checkRegister--2021-01-04 13:18:28,162--29--INFO:第3条用例通过
+login--2021-01-04 13:18:28,211--20--INFO:第1条用例通过
+login--2021-01-04 13:18:28,245--20--INFO:第2条用例通过
+login--2021-01-04 13:18:28,284--20--INFO:第3条用例通过
+modifyUserInfo--2021-01-04 13:18:28,503--20--INFO:第1条用例通过
+modifyUserInfo--2021-01-04 13:18:28,531--20--INFO:第2条用例通过
+checkRegister--2021-01-04 13:22:23,812--29--INFO:第1条用例通过
+checkRegister--2021-01-04 13:22:23,851--29--INFO:第2条用例通过
+checkRegister--2021-01-04 13:22:23,879--29--INFO:第3条用例通过
+login--2021-01-04 13:22:24,926--20--INFO:第1条用例通过
+login--2021-01-04 13:22:24,963--20--INFO:第2条用例通过
+login--2021-01-04 13:22:24,989--20--INFO:第3条用例通过
+modifyUserInfo--2021-01-04 13:22:25,152--20--INFO:第1条用例通过
+modifyUserInfo--2021-01-04 13:22:25,178--20--INFO:第2条用例通过
+checkRegister--2021-01-04 13:24:15,175--31--INFO:第1条用例通过
+checkRegister--2021-01-04 13:24:15,242--31--INFO:第2条用例通过
+checkRegister--2021-01-04 13:24:15,313--31--INFO:第3条用例通过
+login--2021-01-04 13:24:15,364--20--INFO:第1条用例通过
+login--2021-01-04 13:24:15,399--20--INFO:第2条用例通过
+login--2021-01-04 13:24:15,428--20--INFO:第3条用例通过
+modifyUserInfo--2021-01-04 13:24:15,805--21--INFO:第1条用例通过
+modifyUserInfo--2021-01-04 13:24:15,839--21--INFO:第2条用例通过
+checkRegister--2021-01-04 13:27:10,667--31--INFO:第1条用例通过
+checkRegister--2021-01-04 13:27:10,712--31--INFO:第2条用例通过
+checkRegister--2021-01-04 13:27:10,751--31--INFO:第3条用例通过
+login--2021-01-04 13:27:10,810--21--INFO:第1条用例通过
+login--2021-01-04 13:27:10,843--21--INFO:第2条用例通过
+login--2021-01-04 13:27:10,876--21--INFO:第3条用例通过
+modifyUserInfo--2021-01-04 13:27:11,050--21--INFO:第1条用例通过
+modifyUserInfo--2021-01-04 13:27:11,080--21--INFO:第2条用例通过
+checkRegister--2021-01-04 14:01:19,859--31--INFO:第1条用例通过
+checkRegister--2021-01-04 14:01:19,895--31--INFO:第2条用例通过
+checkRegister--2021-01-04 14:01:19,955--31--INFO:第3条用例通过
+login--2021-01-04 14:01:20,015--21--INFO:第1条用例通过
+login--2021-01-04 14:01:20,060--21--INFO:第2条用例通过
+login--2021-01-04 14:01:20,095--21--INFO:第3条用例通过
+modifyUserInfo--2021-01-04 14:01:20,325--21--INFO:第1条用例通过
+modifyUserInfo--2021-01-04 14:01:20,373--21--INFO:第2条用例通过
+checkRegister--2021-01-04 14:02:46,682--31--INFO:第1条用例通过
+checkRegister--2021-01-04 14:02:46,763--31--INFO:第2条用例通过
+checkRegister--2021-01-04 14:02:46,813--31--INFO:第3条用例通过
+login--2021-01-04 14:02:47,867--21--INFO:第1条用例通过
+login--2021-01-04 14:02:47,943--21--INFO:第2条用例通过
+login--2021-01-04 14:02:48,027--21--INFO:第3条用例通过
+modifyUserInfo--2021-01-04 14:02:48,349--21--INFO:第1条用例通过
+modifyUserInfo--2021-01-04 14:02:48,383--21--INFO:第2条用例通过
+checkRegister--2021-01-04 14:07:42,022--31--INFO:第1条用例通过
+checkRegister--2021-01-04 14:07:42,071--31--INFO:第2条用例通过
+checkRegister--2021-01-04 14:07:42,106--31--INFO:第3条用例通过
+login--2021-01-04 14:07:42,149--21--INFO:第1条用例通过
+login--2021-01-04 14:07:42,190--21--INFO:第2条用例通过
+login--2021-01-04 14:07:42,233--21--INFO:第3条用例通过
+modifyUserInfo--2021-01-04 14:07:42,415--21--INFO:第1条用例通过
+modifyUserInfo--2021-01-04 14:07:42,444--21--INFO:第2条用例通过
+login--2021-01-08 11:31:00,626--21--INFO:第1条用例通过
+login--2021-01-08 11:31:01,657--21--INFO:第2条用例通过
+login--2021-01-08 11:31:01,694--21--INFO:第3条用例通过
+checkRegister--2021-01-08 11:31:01,731--31--INFO:第1条用例通过
+checkRegister--2021-01-08 11:31:01,763--31--INFO:第2条用例通过
+checkRegister--2021-01-08 11:31:01,790--31--INFO:第3条用例通过
+modifyUserInfo--2021-01-08 11:31:02,169--21--INFO:第1条用例通过
+modifyUserInfo--2021-01-08 11:31:02,203--21--INFO:第2条用例通过
+checkRegister--2021-01-08 11:31:36,220--31--INFO:第1条用例通过
+checkRegister--2021-01-08 11:31:36,254--31--INFO:第2条用例通过
+checkRegister--2021-01-08 11:31:36,280--31--INFO:第3条用例通过
+login--2021-01-08 11:31:36,320--21--INFO:第1条用例通过
+login--2021-01-08 11:31:36,349--21--INFO:第2条用例通过
+login--2021-01-08 11:31:36,375--21--INFO:第3条用例通过
+modifyUserInfo--2021-01-08 11:31:36,566--21--INFO:第1条用例通过
+modifyUserInfo--2021-01-08 11:31:36,593--21--INFO:第2条用例通过
+checkRegister--2021-01-13 17:09:18,167--31--INFO:第1条用例通过
+checkRegister--2021-01-13 17:09:18,205--31--INFO:第2条用例通过
+login--2021-01-13 17:09:18,227--21--INFO:第1条用例通过
+checkRegister--2021-01-13 17:09:18,237--31--INFO:第3条用例通过
+login--2021-01-13 17:09:18,257--21--INFO:第2条用例通过
+login--2021-01-13 17:09:18,286--21--INFO:第3条用例通过
+modifyUserInfo--2021-01-13 17:09:18,393--21--INFO:第1条用例通过
+modifyUserInfo--2021-01-13 17:09:18,423--21--INFO:第2条用例通过
+checkRegister--2021-01-13 17:14:54,562--31--INFO:第1条用例通过
+login--2021-01-13 17:14:54,567--21--INFO:第1条用例通过
+checkRegister--2021-01-13 17:14:54,600--31--INFO:第2条用例通过
+login--2021-01-13 17:14:54,618--21--INFO:第2条用例通过
+checkRegister--2021-01-13 17:14:54,651--31--INFO:第3条用例通过
+login--2021-01-13 17:14:54,690--21--INFO:第3条用例通过
+modifyUserInfo--2021-01-13 17:14:54,767--21--INFO:第1条用例通过
+modifyUserInfo--2021-01-13 17:14:54,814--21--INFO:第2条用例通过
+checkRegister--2021-01-13 17:15:21,757--31--INFO:第1条用例通过
+login--2021-01-13 17:15:21,764--21--INFO:第1条用例通过
+checkRegister--2021-01-13 17:15:21,792--31--INFO:第2条用例通过
+login--2021-01-13 17:15:21,800--21--INFO:第2条用例通过
+checkRegister--2021-01-13 17:15:21,826--31--INFO:第3条用例通过
+login--2021-01-13 17:15:21,867--21--INFO:第3条用例通过
+modifyUserInfo--2021-01-13 17:15:21,944--21--INFO:第1条用例通过
+modifyUserInfo--2021-01-13 17:15:21,979--21--INFO:第2条用例通过
+checkRegister--2021-01-13 17:36:44,053--31--INFO:第1条用例通过
+login--2021-01-13 17:36:44,063--21--INFO:第1条用例通过
+checkRegister--2021-01-13 17:36:44,092--31--INFO:第2条用例通过
+login--2021-01-13 17:36:44,100--21--INFO:第2条用例通过
+checkRegister--2021-01-13 17:36:44,134--31--INFO:第3条用例通过
+login--2021-01-13 17:36:44,173--21--INFO:第3条用例通过
+modifyUserInfo--2021-01-13 17:36:44,292--21--INFO:第1条用例通过
+modifyUserInfo--2021-01-13 17:36:44,332--21--INFO:第2条用例通过
+checkRegister--2021-01-14 18:29:25,485--31--INFO:第1条用例通过
+login--2021-01-14 18:29:25,496--21--INFO:第1条用例通过
+checkRegister--2021-01-14 18:29:25,515--31--INFO:第2条用例通过
+login--2021-01-14 18:29:25,524--21--INFO:第2条用例通过
+checkRegister--2021-01-14 18:29:25,545--31--INFO:第3条用例通过
+login--2021-01-14 18:29:25,557--21--INFO:第3条用例通过
+modifyUserInfo--2021-01-14 18:29:25,682--21--INFO:第1条用例通过
+modifyUserInfo--2021-01-14 18:29:25,709--21--INFO:第2条用例通过

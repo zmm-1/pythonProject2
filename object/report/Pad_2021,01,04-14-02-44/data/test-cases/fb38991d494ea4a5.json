@@ -1,0 +1,184 @@
+{
+  "uid" : "fb38991d494ea4a5",
+  "name" : "修改个人信息的接口",
+  "fullName" : "test_cases.test_updateUserInfo#test_modifyUserInfo",
+  "historyId" : "799e22a672cb9b4a161b735dee48304f",
+  "time" : {
+    "start" : 1609740168353,
+    "stop" : 1609740168383,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1609740168031,
+      "stop" : 1609740168080,
+      "duration" : 49
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "db_conn",
+    "time" : {
+      "start" : 1609740168080,
+      "stop" : 1609740168229,
+      "duration" : 149
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e07639f4477720be",
+      "name" : "log",
+      "source" : "e07639f4477720be.txt",
+      "type" : "text/plain",
+      "size" : 69
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "db_conn::0",
+    "time" : {
+      "start" : 1609740168384,
+      "stop" : 1609740168384,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "修改个人信息"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_updateUserInfo"
+  }, {
+    "name" : "host",
+    "value" : "MS-VWBCKIOGQLUS"
+  }, {
+    "name" : "thread",
+    "value" : "16588-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases.test_updateUserInfo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "cases",
+    "value" : "{'case_id': 2, 'title': '昵称大于8位', 'headers': '{\"token\":\"#token#\"}', 'data': '{\"nickname\":\"tes0000000000000t\",\"gender\":\"1\",\"birthday\":\"1994-02-14\",\"schoolId\":\"654\"}', 'url': 'user/modifyUserInfo', 'method': 'post', 'expected': '{\"code\":2001,\"message\" :\"昵称最多8位长度\"}'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8b08bc0035be455a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609740080332,
+        "stop" : 1609740080374,
+        "duration" : 42
+      }
+    }, {
+      "uid" : "e0427b1c13cb654f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609738031054,
+        "stop" : 1609738031082,
+        "duration" : 28
+      }
+    }, {
+      "uid" : "1e93d9a482bacd8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609737855812,
+        "stop" : 1609737855840,
+        "duration" : 28
+      }
+    }, {
+      "uid" : "3a3ad24976860d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609737745157,
+        "stop" : 1609737745179,
+        "duration" : 22
+      }
+    }, {
+      "uid" : "48db9cfe0ab54a49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609737508506,
+        "stop" : 1609737508531,
+        "duration" : 25
+      }
+    }, {
+      "uid" : "7809b293e932c1fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609405162237,
+        "stop" : 1609405162260,
+        "duration" : 23
+      }
+    }, {
+      "uid" : "632a913523e26942",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609404740636,
+        "stop" : 1609404740656,
+        "duration" : 20
+      }
+    }, {
+      "uid" : "39b46353371e3666",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609404576928,
+        "stop" : 1609404576950,
+        "duration" : 22
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fb38991d494ea4a5.json",
+  "parameterValues" : [ "{'case_id': 2, 'title': '昵称大于8位', 'headers': '{\"token\":\"#token#\"}', 'data': '{\"nickname\":\"tes0000000000000t\",\"gender\":\"1\",\"birthday\":\"1994-02-14\",\"schoolId\":\"654\"}', 'url': 'user/modifyUserInfo', 'method': 'post', 'expected': '{\"code\":2001,\"message\" :\"昵称最多8位长度\"}'}" ]
+}

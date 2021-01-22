@@ -1,0 +1,174 @@
+{
+  "uid" : "8278e9a0a223d42a",
+  "name" : "测试检查手机号是否注册接口",
+  "fullName" : "test_cases.test_checkRegister#test_checkRegister",
+  "historyId" : "b612aadc7dcac7c2f055aad25d6d114f",
+  "time" : {
+    "start" : 1610529321717,
+    "stop" : 1610529321757,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b6d4d8e1deddfb6f",
+      "name" : "log",
+      "source" : "b6d4d8e1deddfb6f.txt",
+      "type" : "text/plain",
+      "size" : 67
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "检查手机号是否注册"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_checkRegister"
+  }, {
+    "name" : "host",
+    "value" : "MS-VWBCKIOGQLUS"
+  }, {
+    "name" : "thread",
+    "value" : "11788-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases.test_checkRegister"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "cases",
+    "value" : "{'case_id': 1, 'title': '输入未注册的手机号', 'headers': '', 'data': '{\"mobile\":\"18787878787\"}', 'method': 'post', 'url': 'user/checkRegister', 'expected': '{\"code\":1000,\"message\":\"可以注册\"}'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d549bead35e851a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610529294508,
+        "stop" : 1610529294564,
+        "duration" : 56
+      }
+    }, {
+      "uid" : "7de73574a40c1a0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610076696176,
+        "stop" : 1610076696222,
+        "duration" : 46
+      }
+    }, {
+      "uid" : "4f9078faa10fb354",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610076661699,
+        "stop" : 1610076661731,
+        "duration" : 32
+      }
+    }, {
+      "uid" : "bf9370e37d1e6da8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609740166635,
+        "stop" : 1609740166683,
+        "duration" : 48
+      }
+    }, {
+      "uid" : "a1b006eecd90b1b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609740079637,
+        "stop" : 1609740079859,
+        "duration" : 222
+      }
+    }, {
+      "uid" : "e47e069d7bc277bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609738030621,
+        "stop" : 1609738030668,
+        "duration" : 47
+      }
+    }, {
+      "uid" : "760e0581b0c181c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609737854108,
+        "stop" : 1609737855177,
+        "duration" : 1069
+      }
+    }, {
+      "uid" : "d67dc1ab898b9108",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609737743773,
+        "stop" : 1609737743813,
+        "duration" : 40
+      }
+    }, {
+      "uid" : "92e12b90dae17570",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609737508061,
+        "stop" : 1609737508100,
+        "duration" : 39
+      }
+    }, {
+      "uid" : "341c11b632fbcd09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609405161928,
+        "stop" : 1609405161965,
+        "duration" : 37
+      }
+    }, {
+      "uid" : "458b8419845ec1b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609404739297,
+        "stop" : 1609404740331,
+        "duration" : 1034
+      }
+    }, {
+      "uid" : "5d0859d41cf21d17",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609404576622,
+        "stop" : 1609404576651,
+        "duration" : 29
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "8278e9a0a223d42a.json",
+  "parameterValues" : [ "{'case_id': 1, 'title': '输入未注册的手机号', 'headers': '', 'data': '{\"mobile\":\"18787878787\"}', 'method': 'post', 'url': 'user/checkRegister', 'expected': '{\"code\":1000,\"message\":\"可以注册\"}'}" ]
+}

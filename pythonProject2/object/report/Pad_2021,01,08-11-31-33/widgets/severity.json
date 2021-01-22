@@ -1,0 +1,81 @@
+[ {
+  "uid" : "887aca660d34aa4f",
+  "name" : "测试检查手机号是否注册接口",
+  "time" : {
+    "start" : 1610076696225,
+    "stop" : 1610076696255,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21f3259c6355500",
+  "name" : "测试的登录功能",
+  "time" : {
+    "start" : 1610076696284,
+    "stop" : 1610076696321,
+    "duration" : 37
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43e0cbe817cbc8b9",
+  "name" : "测试的登录功能",
+  "time" : {
+    "start" : 1610076696352,
+    "stop" : 1610076696376,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1cfc3430d5a3a455",
+  "name" : "修改个人信息的接口",
+  "time" : {
+    "start" : 1610076696569,
+    "stop" : 1610076696593,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33c845f3c7eb25ba",
+  "name" : "测试检查手机号是否注册接口",
+  "time" : {
+    "start" : 1610076696176,
+    "stop" : 1610076696222,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "492e3c19c1475d7e",
+  "name" : "测试的登录功能",
+  "time" : {
+    "start" : 1610076696324,
+    "stop" : 1610076696349,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21b843c5620ac3f6",
+  "name" : "测试检查手机号是否注册接口",
+  "time" : {
+    "start" : 1610076696258,
+    "stop" : 1610076696281,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9533140548968497",
+  "name" : "修改个人信息的接口",
+  "time" : {
+    "start" : 1610076696516,
+    "stop" : 1610076696566,
+    "duration" : 50
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

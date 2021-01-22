@@ -1,0 +1,177 @@
+{
+  "uid" : "8e32326923da3f3a",
+  "name" : "测试的登录功能",
+  "fullName" : "test_cases.test_login#test_login",
+  "historyId" : "7d5ce36cee018405ae6723163e265e39",
+  "time" : {
+    "start" : 1610529321718,
+    "stop" : 1610529321765,
+    "duration" : 47
+  },
+  "description" : "登录接口一共三个用例",
+  "descriptionHtml" : "<p>登录接口一共三个用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "登录接口一共三个用例",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ce781869b7ef4dd3",
+      "name" : "log",
+      "source" : "ce781869b7ef4dd3.txt",
+      "type" : "text/plain",
+      "size" : 51
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "pad手机号密码登录的接口"
+  }, {
+    "name" : "feature",
+    "value" : "登录功能"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "MS-VWBCKIOGQLUS"
+  }, {
+    "name" : "thread",
+    "value" : "2836-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "cases",
+    "value" : "{'case_id': 1, 'title': '输入正确手机号，正确密码', 'headers': '', 'data': '{\"mobile\":\"18866666666\",\"password\":\"000000\"}', 'method': 'post', 'url': 'user/login', 'expected': '{\"code\":1000,\"message\":\"登录成功\"}'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c4e90e26b5ce0e81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610529294512,
+        "stop" : 1610529294569,
+        "duration" : 57
+      }
+    }, {
+      "uid" : "7b314e572d1d430e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610076696284,
+        "stop" : 1610076696321,
+        "duration" : 37
+      }
+    }, {
+      "uid" : "4d870d3b9183d5d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610076660578,
+        "stop" : 1610076660626,
+        "duration" : 48
+      }
+    }, {
+      "uid" : "f6e09d5621c94d96",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609740166816,
+        "stop" : 1609740167869,
+        "duration" : 1053
+      }
+    }, {
+      "uid" : "584df1d70b370295",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609740079959,
+        "stop" : 1609740080016,
+        "duration" : 57
+      }
+    }, {
+      "uid" : "e1c72c61e58bafcc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609738030755,
+        "stop" : 1609738030812,
+        "duration" : 57
+      }
+    }, {
+      "uid" : "7901451ba0d28e52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609737855320,
+        "stop" : 1609737855366,
+        "duration" : 46
+      }
+    }, {
+      "uid" : "5670097e151a3eb8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609737743883,
+        "stop" : 1609737744927,
+        "duration" : 1044
+      }
+    }, {
+      "uid" : "f98fe46866b912b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609737508166,
+        "stop" : 1609737508211,
+        "duration" : 45
+      }
+    }, {
+      "uid" : "6be8894fc756b5c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609405162015,
+        "stop" : 1609405162052,
+        "duration" : 37
+      }
+    }, {
+      "uid" : "137c63308b3b97df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609404740398,
+        "stop" : 1609404740430,
+        "duration" : 32
+      }
+    }, {
+      "uid" : "be12b3af26fb9e79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609404576720,
+        "stop" : 1609404576750,
+        "duration" : 30
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8e32326923da3f3a.json",
+  "parameterValues" : [ "{'case_id': 1, 'title': '输入正确手机号，正确密码', 'headers': '', 'data': '{\"mobile\":\"18866666666\",\"password\":\"000000\"}', 'method': 'post', 'url': 'user/login', 'expected': '{\"code\":1000,\"message\":\"登录成功\"}'}" ]
+}

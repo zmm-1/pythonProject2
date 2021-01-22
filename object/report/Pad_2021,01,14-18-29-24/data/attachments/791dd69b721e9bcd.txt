@@ -1,0 +1,1 @@
+INFO     login:test_login.py:20 第1条用例通过

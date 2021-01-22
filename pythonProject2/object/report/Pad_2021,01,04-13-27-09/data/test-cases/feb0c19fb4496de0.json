@@ -1,0 +1,123 @@
+{
+  "uid" : "feb0c19fb4496de0",
+  "name" : "测试检查手机号是否注册接口",
+  "fullName" : "test_cases.test_checkRegister#test_checkRegister",
+  "historyId" : "a2cff0dba6f9f9405c11d3063041f1bf",
+  "time" : {
+    "start" : 1609738030715,
+    "stop" : 1609738030752,
+    "duration" : 37
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4d486f2228f2353a",
+      "name" : "log",
+      "source" : "4d486f2228f2353a.txt",
+      "type" : "text/plain",
+      "size" : 67
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "检查手机号是否注册"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_checkRegister"
+  }, {
+    "name" : "host",
+    "value" : "MS-VWBCKIOGQLUS"
+  }, {
+    "name" : "thread",
+    "value" : "24324-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases.test_checkRegister"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "cases",
+    "value" : "{'case_id': 3, 'title': '手机号长度错误', 'headers': '', 'data': '{\"mobile\":\"18866\"}', 'method': 'post', 'url': 'user/checkRegister', 'expected': '{\"code\":2003,\"message\":\"手机号码长度不是11位\"}'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "369ea212afc3e34d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609737855249,
+        "stop" : 1609737855315,
+        "duration" : 66
+      }
+    }, {
+      "uid" : "e7f068b86bce0016",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609737743854,
+        "stop" : 1609737743880,
+        "duration" : 26
+      }
+    }, {
+      "uid" : "404076ca64cb0ea7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609737508133,
+        "stop" : 1609737508163,
+        "duration" : 30
+      }
+    }, {
+      "uid" : "8fe6ced09fa4b139",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609405161992,
+        "stop" : 1609405162013,
+        "duration" : 21
+      }
+    }, {
+      "uid" : "41eedecfc6368555",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609404740369,
+        "stop" : 1609404740396,
+        "duration" : 27
+      }
+    }, {
+      "uid" : "5967f80a067945a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609404576693,
+        "stop" : 1609404576718,
+        "duration" : 25
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "feb0c19fb4496de0.json",
+  "parameterValues" : [ "{'case_id': 3, 'title': '手机号长度错误', 'headers': '', 'data': '{\"mobile\":\"18866\"}', 'method': 'post', 'url': 'user/checkRegister', 'expected': '{\"code\":2003,\"message\":\"手机号码长度不是11位\"}'}" ]
+}

@@ -1,0 +1,1 @@
+INFO     modifyUserInfo:test_updateUserInfo.py:20 第1条用例通过
